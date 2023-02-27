@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "starjout";
+  src: url("../fonts/Starjout.ttf");
+}
+#navContainer {
+  background-color: black;
+  width: 100%;
+  height: 20vh;
+}
+
+#navContainer ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+#navContainer ul a {
+  color: #FFE919;
+  font-family: "starjout";
+  font-size: 2em;
+}
+
+#homeContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.greenSaber {
+  background-image: url("../img/sabreVert.jpg");
+  width: 30%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+
+.redSaber {
+  background-image: url("../img/sabreRouge.jpg");
+  width: 30%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  background-color: black;
+}
+
+.titleContainer p {
+  color: #FFE919;
+  font-family: "starjout";
+  font-size: 3em;
+  text-align: center;
+  align-items: center;
+}
+
+.listArticle {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#box {
+  background: linear-gradient(blue, rgb(245, 180, 13));
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.boxContainer {
+  background-color: grey;
+  width: 90%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divArme {
+  height: 5em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.divArme div:nth-child(2) {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxImage {
+  width: 100px;
+  height: 9vh;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 3px solid blue;
+}
+
+.boxText {
+  background: linear-gradient(black, blue);
+  border-radius: 10px;
+  border: solid white 2px;
+  padding-left: 1em;
+}
+
+#lanceArme {
+  background-image: url("../img/lanceArme.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#saiArme {
+  background-image: url("../img/saiArme.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#swordArme {
+  background-image: url("../img/swordArme.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#knifeArme {
+  background-image: url("../img/knifeArme.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#crossbowArme {
+  background-image: url("../img/crossbowArme.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#sniperGun {
+  background-image: url("../img/sniperGun.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  color: black;
+  background-color: #FFE919;
+  padding: 10px;
+  border-radius: 10px;
+  width: 4em;
+  list-style-type: none;
+  margin-left: 2em;
+}
+
+#navInscription {
+  color: #FFE919;
+  font-family: "starjout";
+  text-align: center;
+  font-size: 48px;
+}
+
+.mainInscription {
+  border: 3px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.buttonReturn {
+  color: black;
+  background-color: #FFE919;
+  padding: 10px;
+  border-radius: 10px;
+  width: 4em;
+  text-decoration: none;
+  margin-left: 2em;
+}
+
+.button {
+  color: black;
+  background-color: #FFE919;
+  padding: 10px;
+  border-radius: 10px;
+  width: 4em;
+  text-decoration: none;
+  margin-left: 2em;
+  justify-content: center;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+  width: 5em;
+  height: 2em;
+  border: 4px solid blue;
+  color: #FFE919;
+}
+
+.passName {
+  border: 4px solid blue;
+}
+
+.buttonConnect {
+  border: 4px solid blue;
+}
+
+/*# sourceMappingURL=style.css.map */

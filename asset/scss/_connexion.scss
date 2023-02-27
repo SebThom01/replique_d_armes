@@ -1,0 +1,32 @@
+// .titleContainer {
+//     color: #FFE919;
+//     font-family: Arial, Helvetica, sans-serif;
+// }
+.button{
+    color: black;
+    background-color: #FFE919;
+    padding: 10px;
+    border-radius: 10px;
+    width: 4em;
+    text-decoration: none;
+    margin-left: 2em;
+    justify-content: center;
+}
+.userName {
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    height: 2em;
+    border: 4px solid blue;
+    color: #FFE919;
+
+}
+.passName {
+    border: 4px solid blue;
+
+    
+
+}
+.buttonConnect {
+    border: 4px solid blue;
+}

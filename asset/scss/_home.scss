@@ -1,0 +1,25 @@
+#homeContainer {
+    display: flex;
+    justify-content: space-between;
+ 
+    width: 100vw;
+    height: 100vh;
+}
+.greenSaber {
+    background-image: url('../img/sabreVert.jpg');
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    color: black;
+
+}
+.redSaber {
+    background-image: url('../img/sabreRouge.jpg');
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  
+
+}
